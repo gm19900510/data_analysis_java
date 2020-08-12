@@ -2,8 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gm</groupId>
-	<artifactId>csv_java</artifactId>
+	<artifactId>data_analysis_java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<spark.version>1.6.0</spark.version>
+		<scala.version>2.10</scala.version>
+	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -17,4 +23,5 @@
 			<version>3.17</version>
 		</dependency>
 	</dependencies>
+
 </project>
